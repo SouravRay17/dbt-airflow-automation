@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: tpcds
+    database: snowflake_sample_data
+    schema: tpcds_sf100tcl
+    tables:
+      - name: call_center
+        description: "Call center data from TPCDS_SF100TCL"
+        columns:
+          - name: cc_call_center_sk
+            tests:
+              - unique
+              - not_null
+
+  - name: tpcds_small
+    database: snowflake_sample_data
+    schema: tpcds_sf10tcl
+    tables:
+      - name: call_center
+        description: "Call center data from TPCDS_SF10TCL"
+        columns:
+          - name: cc_call_center_sk
+            tests:
+              - unique
+              - not_null

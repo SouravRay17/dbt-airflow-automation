@@ -1,0 +1,13 @@
+my_dbt_project:
+  outputs:
+    dev:
+      account: zl56867.ap-south-1.aws
+      database: dbt_db
+      password: Alfresco@2026@recstacy
+      role: dbt_role
+      schema: dbt_schema
+      threads: 10
+      type: snowflake
+      user: sourav17
+      warehouse: dbt_wh
+  target: dev
