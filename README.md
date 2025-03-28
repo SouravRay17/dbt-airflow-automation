@@ -7,7 +7,7 @@ This project integrates **DBT (Data Build Tool)** for data transformation and **
 
 ## Project Architecture
 
-![Project Architecture](path/to/your/image.png)
+![Project Architecture](Airflow_dagsflow.png)
 
 The data pipeline follows these stages:
 1. **Extract & Load**: Data is ingested into Snowflake.
@@ -77,7 +77,7 @@ dbt run
 
 ## Airflow DAGs
 
-![Airflow DAG](path/to/your/image.png)
+![Airflow DAG](Airflow_dagsflow.png)
 
 ### Main DAG Workflow:
 - **Ingest Data** → **Run DBT Models** → **Validate Data** → **Notify**
@@ -119,7 +119,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## Screenshots
-![Screenshot 1](path/to/your/image.png)
+![Screenshot 1](Successful_DBT_run.png)
 
-![Screenshot 2](path/to/your/image.png)
+![Screenshot 2](Snowflake_tables_creted_using_DBT.png)
 
