@@ -7,7 +7,7 @@ This project integrates **DBT (Data Build Tool)** for data transformation and **
 
 ## Project Architecture
 
-![Project Architecture](Airflow_dags_flow.png)
+![Project Architecture](Approach1.drawio.png)
 
 The data pipeline follows these stages:
 1. **Extract & Load**: Data is ingested into Snowflake.
